@@ -98,7 +98,7 @@ body {
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    size-adjust: 10%;
+    size-adjust: 100%;
 }
 
 .img-text-wrapper .subtitle {
