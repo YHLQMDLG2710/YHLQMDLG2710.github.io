@@ -156,6 +156,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    max-width: 10;
 }
 
 /*futsal*/
