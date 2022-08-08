@@ -20,9 +20,9 @@ body {
 }
 
 .nav-wrapper > .left-side > div {
-  margin-right: 20px;
-  font-size: 0.9em;
-  text-transform: uppercase;  
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;  
 }
 
 .nav-link-wrapper {
