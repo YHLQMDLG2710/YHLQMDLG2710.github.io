@@ -1,7 +1,63 @@
 <!DOCTYPE html>
+
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="left-side">
+                    <div class="nav-link-wrapper  active-nav-link">
+                        <a href="index2.html">Home</a>
+                    </div>
+
+                    <div class="nav-link-wrapper">
+                        <a href="about.html">About Me</a>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="brand">
+                        <div>BEATRIZ MILITÃO</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-wrapper">
+                <div class="portfolio-items-wrapper2">
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image:url(https://scontent.flis6-1.fna.fbcdn.net/v/t39.30808-6/298377675_2019806031741791_9086311077258439456_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=XAs20xto4soAX8XUwX6&_nc_ht=scontent.flis6-1.fna&oh=00_AT9TneVP0jR07mZOSAyf2_v6GuewTNwMvlNk6wVRiVaqxQ&oe=62F54706)"></div>
+
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <a href="https://eug2022.eu/"><img src="https://eug2022.eu/wp-content/uploads/2021/12/EUG-Lodz-logo-poziom-BIALE-01-768x379.png" ></a>
+                            </div>
+
+                            <div class="subtitle">
+                                EUG Lodz 2022
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </body>
+        <script>
+            const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+            portfolioItems.forEach(portfolioItem => {
+                portfolioItem.addEventListener('mouseover', () => {
+                    portfolioItem.childNodes[1].classList.add('img-darken');
+                })
+
+                portfolioItem.addEventListener('mouseout', () => {
+                    portfolioItem.childNodes[1].classList.remove('img-darken');
+                })
+            })
+        </script>
 </html>
