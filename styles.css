@@ -123,6 +123,11 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+.two-rows-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
 .profile-image-wrapper img {
     width: 100%;
     size: 10000px;
