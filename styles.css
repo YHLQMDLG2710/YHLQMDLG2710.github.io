@@ -95,6 +95,9 @@ body {
 .logo-wrapper img {
     width: 50%;
     margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     size-adjust: 50%;
 }
 
