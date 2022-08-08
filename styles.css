@@ -123,11 +123,6 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-.two-rows-wrapper {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-}
-
 .profile-image-wrapper img {
     width: 100%;
     size: 10000px;
@@ -139,4 +134,16 @@ body {
 
 .profile-content-wrapper h1 {
     color: lightseagreen;
+}
+
+/*informatic*/
+
+.two-rows-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.tecnico-image-wrapper {
+    max-width: 60px;
+    max-height: 20px;
 }
