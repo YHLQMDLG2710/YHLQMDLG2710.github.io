@@ -167,6 +167,7 @@ body {
     padding: 30px;
     position: absolute;
     margin: auto;
+    justify-content: space-between;
 }
 
 .for-rows-wrapper {
