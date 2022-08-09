@@ -168,3 +168,8 @@ body {
     position: absolute;
     margin: auto;
 }
+
+.for-rows-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
