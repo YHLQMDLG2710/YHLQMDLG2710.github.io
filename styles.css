@@ -149,14 +149,9 @@ body {
 
 .curriculo-button {
     background-color: black; 
-    border: none;
     color: white;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    max-width: 10;
-    position: relative;
 }
 
 /*futsal*/
