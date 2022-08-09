@@ -136,6 +136,10 @@ body {
     color: lightseagreen;
 }
 
+.profile-content-wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*informatic*/
 
 .two-rows-wrapper {
