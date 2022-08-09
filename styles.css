@@ -157,7 +157,6 @@ body {
 /*futsal*/
 
 .EUG-image-wrapper {
-    max-width: 10px;
-    max-height: 20px;
-    
+    align-self: center;
+    border-left: 20px;
 }
