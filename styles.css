@@ -140,6 +140,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.social-wrapper {
+    display: flex;
+}
+
 /*informatic*/
 
 .two-rows-wrapper {
