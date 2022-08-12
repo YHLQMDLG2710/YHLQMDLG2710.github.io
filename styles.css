@@ -120,11 +120,12 @@ body {
 
 .two-column-wrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .profile-image-wrapper img {
     width: 600px;
+    padding-left: 100px;
 }
 
 .profile-content-wrapper {
